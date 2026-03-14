@@ -1,35 +1,45 @@
-# Perceptron
+# Perceptron From Scratch
 
-This folder contains a basic implementation of a **Perceptron**, one of the earliest neural network models used for binary classification.
+This experiment implements a basic perceptron model from scratch to understand the fundamentals of linear classifiers.
 
-## Objective
+## Topics Covered
 
-The goal of this experiment is to refresh fundamental concepts behind neural networks by implementing and testing a perceptron model.
+- Perceptron learning rule
+- Binary classification
+- Decision boundaries
+- Model evaluation
 
-## Contents
+## Project Structure
 
-- `perceptron.py` – Clean implementation of the perceptron algorithm  
-- `notebook.ipynb` – Experiment notebook for training and visualization  
+01-perceptron/
 
-## Concepts Covered
+notebook.ipynb
 
-- Linear classification
-- Weight updates
-- Activation functions
-- Decision boundary visualization
+src/
 
-## Observations
+perceptron.py
 
-The perceptron performs well when the dataset is **linearly separable**.  
-However, it fails when the data cannot be separated by a straight line.
+train.py
 
-This limitation led to the development of **multi-layer neural networks**.
+utils.py
+
+results.md
+
+README.md
+
+## Workflow
+
+1. Generate synthetic dataset
+2. Train perceptron model
+3. Evaluate performance
+4. Visualize decision boundary
+
+## Key Observation
+
+The perceptron works well when data is linearly separable but fails for complex datasets.
 
 ## Next Steps
 
-Next experiments will include:
-
-- Multi-layer Neural Networks (ANN)
+- Multi-layer neural networks
 - Backpropagation
 - Activation functions
-- Optimization techniques
