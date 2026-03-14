@@ -5,8 +5,8 @@ class Perceptron:
     Basic Perceptron implementation for binary classification.
     """
 
-    def __init__(self, learning_rate=0.01, epochs=100):
-        self.learning_rate = learning_rate
+    def __init__(self, lr=0.01, epochs=100):
+        self.learning_rate = lr
         self.epochs = epochs
         self.weights = None
         self.bias = None
